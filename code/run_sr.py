@@ -50,7 +50,10 @@ def run_sr(emis, model, emis_units="tons/year"):
 
     # join the emis dataframe into the grid dataframe
     emis.crs = "+proj=longlat"
-    gdf.crs = "+proj=lcc +lat_1=33.000000 +lat_2=45.000000 +lat_0=40.000000 +lon_0=-97.000000 +x_0=0 +y_0=0 +a=6370997.000000 +b=6370997.000000 +to_meter=1"  # QUESTION: Is this always the same? Or do we add the lat/lon for point that we are interested in
+    # QUESTION: Is this always the same? Or do we add the lat/lon for point that we are interested in
+    # gdf.crs = "+proj=aea +lat_0=23 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs +type=crs"
+    gdf.crs = "+proj=lcc +lat_1=33.000000 +lat_2=45.000000 +lat_0=40.000000 +lon_0=-97.000000 +x_0=0 +y_0=0 +a=6370997.000000 +b=6370997.000000 +to_meter=1"
+
     emis = emis.to_crs(gdf.crs)
     join_right_df = gdf.sjoin(emis, how="right")
     print("Finished joining the dataframes.")

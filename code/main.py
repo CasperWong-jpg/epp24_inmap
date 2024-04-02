@@ -11,7 +11,7 @@ https://geopandas.org/en/stable/docs/user_guide/mapping.html
 """
 
 # TODO: add relevant CSVs
-inputs = [f"Fossil_Fuels_{i}" for i in range(2001, 2018)]
+inputs = [f"Fossil_Fuels_{i}" for i in range(2001, 2002)]
 filetype = "shp"
 
 
