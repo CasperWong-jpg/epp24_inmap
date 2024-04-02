@@ -1,0 +1,58 @@
+State,Facility Name,Facility ID,Year,Gross Load (MWh),Steam Load (1000 lb),SO2 Mass (short tons),CO2 Mass (short tons),NOx Mass (short tons),Heat Input (mmBtu),Disadvantaged?,Not Disadvantaged,Tract Status?
+NY,Arthur Kill,2490,2006,1058518.75,,3.344,662383.675,492.522,11160023.08,0,1,Not Disadvantaged
+NY,East River,2493,2006,2189258.25,7296431.5,203.616,2106487.55,798.028,34941477.98,0,1,Not Disadvantaged
+NY,Ravenswood Generating Station,2500,2006,4649244.5,898219,1152.913,2793687.675,1729.234,46322707.92,0,1,Not Disadvantaged
+NY,E F Barrett,2511,2006,1524687.25,,172.863,902543.65,1065.87,16083533.98,0,1,Not Disadvantaged
+NY,Glenwood,2514,2006,365529.25,,1.17,231592.225,188.88,4029356.4,0,1,Not Disadvantaged
+NY,Northport,2516,2006,6183117,,9083.499,4374350.4,4614.787,63932141.45,0,1,Not Disadvantaged
+NY,Port Jefferson Energy Center,2517,2006,1638136.75,,1989.114,1043815.625,763.776,15503180.33,0,1,Not Disadvantaged
+NY,West Babylon Facility,2521,2006,2513,,,,9.437,36159.5,0,1,Not Disadvantaged
+NY,"Cayuga Operating Company, LLC",2535,2006,2502543.25,,1333.342,2393820.459,2442.747,23331358.07,0,1,Not Disadvantaged
+NY,Bethlehem Energy Center (Albany),2539,2006,1562772.99,,5.778,492299.48,46.678,8173814.603,0,1,Not Disadvantaged
+NY,Oswego Harbor Power,2594,2006,134426.6,,674.449,132300.284,154.769,1646020.862,1,0,Disadvantaged
+NY,Bowline Generating Station,2625,2006,263243.25,,129.028,203381.925,215.553,3189196.275,1,0,Disadvantaged
+NY,Hillburn,2628,2006,812.06,,,,2.864,13020.453,0,1,Not Disadvantaged
+NY,Shoemaker,2632,2006,5534.68,,,,19.43,111323.866,0,1,Not Disadvantaged
+NY,Freeport Power Plant No. 2,2679,2006,42658.5,,0.13,25673.45,3.596,432017.025,1,0,Disadvantaged
+NY,S A Carlson,2682,2006,14893,1347525.5,3045.275,244035.348,459.812,2436030.05,1,0,Disadvantaged
+NY,Somerset Operating Company  (Kintigh),6082,2006,5682704.8,,2572.637,5069619.916,4307.377,49411469.25,0,1,Not Disadvantaged
+NY,Wading River Facility,7146,2006,61359,,,,114.339,817636.925,0,1,Not Disadvantaged
+NY,Richard M Flynn (Holtsville),7314,2006,799128.85,,17.059,572306.62,144.634,9570522.148,0,1,Not Disadvantaged
+NY,Glenwood Landing Energy Center,7869,2006,154324,,0.539,89016.225,13.726,1510316.725,0,1,Not Disadvantaged
+NY,Vernon Boulevard,7909,2006,110780.46,,0.317,62793.73,5.477,1056645.078,0,1,Not Disadvantaged
+NY,23rd and 3rd,7910,2006,90400.95,,0.277,54992.663,5.141,925354.976,0,1,Not Disadvantaged
+NY,Brentwood,7912,2006,109815.68,,0.326,64593.556,5.034,1086897.617,1,0,Disadvantaged
+NY,Hell Gate,7913,2006,75481.07,,0.224,44367.97,4.212,746607.019,1,0,Disadvantaged
+NY,Harlem River Yard,7914,2006,74888.15,,0.223,44221.073,3.909,744147.556,1,0,Disadvantaged
+NY,North 1st,7915,2006,87217.82,,0.255,50522.95,4.064,850143.686,0,1,Not Disadvantaged
+NY,Roseton Generating LLC,8006,2006,466554.5,,2187.809,378603.475,478.48,4820749,0,1,Not Disadvantaged
+NY,Holtsville Facility,8007,2006,64007.93,,,,357.401,881404.096,0,1,Not Disadvantaged
+NY,Pouch Terminal,8053,2006,69175.28,,0.201,39725.944,3.028,668457.311,1,0,Disadvantaged
+NY,Astoria Generating Station,8906,2006,2525299.33,,1351.049,1803100.245,1886.88,27197176.81,0,1,Not Disadvantaged
+NY,"Castleton Power, LLC",10190,2006,132553.89,,0.348,68923.933,34.228,1159783.035,0,1,Not Disadvantaged
+NY,"Black River Generation, LLC",10464,2006,4679680,4679680,,,507.204,6029743.717,0,0,Error
+NY,"Beaver Falls, LLC",10617,2006,,,,,,,1,0,Disadvantaged
+NY,Allegany Station No. 133,10619,2006,68196.75,,0.163,32295.025,8.082,543430.325,0,1,Not Disadvantaged
+NY,Carthage Energy,10620,2006,12223.53,,0.031,6196.198,7.166,104250.618,1,0,Disadvantaged
+NY,"Syracuse, LLC",10621,2006,66360.57,,0.162,32140.483,8.329,540822.648,0,1,Not Disadvantaged
+NY,Selkirk Cogen Partners,10725,2006,2096749.42,,,,304.921,17531416.62,0,1,Not Disadvantaged
+NY,Bethpage Energy Center,50292,2006,630657.97,,2.174,307223.006,90.821,5168662.008,0,1,Not Disadvantaged
+NY,Indeck-Silver Springs Energy Center,50449,2006,107234.25,,2.09,65054.475,45.881,1084985.675,1,0,Disadvantaged
+NY,Indeck-Oswego Energy Center,50450,2006,9906.25,,0.027,5280.1,6.352,88836.85,1,0,Disadvantaged
+NY,Indeck-Yerkes Energy Center,50451,2006,15063.25,,0.055,8271.575,10.426,138938.7,0,1,Not Disadvantaged
+NY,Indeck-Corinth Energy Center,50458,2006,499952.75,,1.258,238326.375,50.851,4008237.075,0,1,Not Disadvantaged
+NY,Sterling Power Plant,50744,2006,9006.25,,0.031,6213.025,6.299,104576.8,0,0,Error
+NY,Carr Street Generating Station,50978,2006,16157.51,,0.064,12087.789,3.059,203401.391,1,0,Disadvantaged
+NY,Nassau Energy Corporation,52056,2006,334951.24,,,,252.395,3932171.742,0,1,Not Disadvantaged
+NY,Rensselaer Cogen,54034,2006,6279.5,,0.085,4029.566,1.248,67807.169,1,0,Disadvantaged
+NY,Lockport,54041,2006,452701.5,,,,354.071,5669329.3,0,1,Not Disadvantaged
+NY,Indeck-Olean Energy Center,54076,2006,83900.5,,1.095,43163.725,13.957,710261.425,0,1,Not Disadvantaged
+NY,KIAC Cogeneration,54114,2006,539808.7,,,,63.587,5273856.274,0,1,Not Disadvantaged
+NY,Fortistar North Tonawanda Inc,54131,2006,16375,,,,8.285,200447.225,0,1,Not Disadvantaged
+NY,Nissequogue Energy Center,54149,2006,295447.99,,,,136.364,3368108.781,0,1,Not Disadvantaged
+NY,Independence,54547,2006,1601039.77,,3.843,761407.581,124.642,12812179.58,0,1,Not Disadvantaged
+NY,"Saranac Power Partners, LP",54574,2006,2106608.5,,,,219.786,17023603.05,0,1,Not Disadvantaged
+NY,Massena Energy Facility,54592,2006,1170.5,,0.173,668.6,0.373,10366.625,1,0,Disadvantaged
+NY,Batavia Energy,54593,2006,11613.25,,0.042,8399.35,8.58,141285.275,1,0,Disadvantaged
+NY,Brooklyn Navy Yard Cogeneration,54914,2006,1714227.75,,5.667,1116616.375,51.894,18787330.1,0,1,Not Disadvantaged
+NY,Astoria Gas Turbine Power,55243,2006,155048.75,,,52,488.411,1961513,0,1,Not Disadvantaged
