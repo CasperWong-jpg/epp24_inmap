@@ -29,11 +29,6 @@ for i in inputs:
     # })
 
     # Plots
-    resultsISRM.crs = "+proj=lcc +lat_1=33.000000 +lat_2=45.000000 +lat_0=40.000000 +lon_0=-97.000000 +x_0=0 +y_0=0 +a=6370997.000000 +b=6370997.000000 +to_meter=1"
-    resultsISRM = resultsISRM.to_crs("+proj=longlat")
-
-    resultsISRM = resultsISRM.to_file(os.path.join("..", "output", i, i) + ".shp")
-
     # geolist = resultsISRM[["TotalPM25", "geometry"]]
     # res = geolist.h3.polyfill(5)
     # my_data = res.rename(columns={'h3_polyfill': 'hexIds'})[['TotalPM25', 'hexIds']]

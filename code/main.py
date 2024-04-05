@@ -13,7 +13,8 @@ https://geopandas.org/en/stable/docs/user_guide/mapping.html
 # TODO: add relevant CSVs
 inputs = [f"Fossil_Fuels_{i}" for i in range(2001, 2002)]
 filetype = "shp"
-
+# crs_coords = "+proj=lcc +lat_1=40.66666667 +lat_2=41.03333333 +lat_0=40.16666667 +lon_0=-74.000000 +x_0=0 +y_0=0 +a=6370997.000000 +b=6370997.000000 +to_meter=1"  # NY
+crs_coords = "+proj=lcc +lat_1=33.000000 +lat_2=45.000000 +lat_0=40.000000 +lon_0=-97.000000 +x_0=0 +y_0=0 +a=6370997.000000 +b=6370997.000000 +to_meter=1"
 
 def automate_run_sr(inputs, filetype):
     for i in inputs:
@@ -39,7 +40,10 @@ def automate_run_sr(inputs, filetype):
         pd.options.mode.chained_assignment = 'warn'
 
         # Run InMAP and see results
-        resultsISRM = run_sr(emis, model="isrm", emis_units="tons/year")
+        resultsISRM = run_sr(emis, model="isrm", crs_coords=crs_coords, emis_units="tons/year")
+        resultsISRM.crs = crs_coords
+        resultsISRM = resultsISRM.to_crs("+proj=longlat")
+
         print("Results:")
         print(resultsISRM.head())  # we see the first few rows of output
 
